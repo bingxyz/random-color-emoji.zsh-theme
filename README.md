@@ -14,5 +14,5 @@ $ wget https://raw.githubusercontent.com/bingxyz/random-color-emoji.zsh-theme/ma
 And configure .zshrc:
 
 ```bash
-ZSH_THEME="random-color-emoji"
+$ sed -i -e 's/ZSH_THEME="\([^"]*\)"/ZSH_THEME="random-color-emoji"/' ~/.zshrc
 ```
