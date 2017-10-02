@@ -27,7 +27,7 @@ function random_color {
     echo -n "$FG[$(printf %03d $(real_random))]"
 }
 PROMPT='%(?,,%{$fg[red]%}FAIL : $?%{$reset_color%})
-❮ $(random_color)%~%{$reset_color%} ❯ %{$(random_color)%}%n$(random_color)  $(random_color)%m%{$reset_color%}$(git_prompt_info)
-%_$(prompt_char) $(random_emoji)  '
+❮ $(random_color)%~%{$reset_color%} ❯ %{$(random_color)%}%n $(random_emoji)  $(random_color)%m%{$reset_color%}$(git_prompt_info)
+%_$(prompt_char)$(random_color)  '
  
 RPROMPT='$(random_color)$(random_face)%{$reset_color%} [%*] '
