@@ -1,7 +1,7 @@
 # random-color-emoji.zsh-theme
 A zsh random color and random Emoji theme
 
-![](https://github.com/bingxyz/random-color-emoji.zsh-theme/blob/master/img/random-color-emoji-theme.png?raw=true)
+![](https://github.com/bingxyz/random-color-emoji.zsh-theme/blob/master/screenshot.gif?raw=true)
 
 ## Install
 
