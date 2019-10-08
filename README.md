@@ -8,11 +8,11 @@ A zsh random color and random Emoji theme
 Installing [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), and type:
 
 ```bash
-$ wget https://raw.githubusercontent.com/bingxyz/random-color-emoji.zsh-theme/master/random-color-emoji.zsh-theme -O ~/$ZSH/themes/random-color-emoji.zsh-theme
+$ wget https://raw.githubusercontent.com/bingxyz/random-color-emoji.zsh-theme/master/random-color-emoji.zsh-theme -O $ZSH/themes/random-color-emoji.zsh-theme
 ```
 
 And configure .zshrc:
 
 ```bash
-$ sed -i -e 's/ZSH_THEME="\([^"]*\)"/ZSH_THEME="random-color-emoji"/' ~/.zshrc
+$ sed -i -e 's/^ZSH_THEME="\([^"]*\)"/ZSH_THEME="random-color-emoji"/' ~/.zshrc
 ```
